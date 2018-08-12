@@ -1,0 +1,43 @@
+.btn {
+	margin: 10px;
+	margin-top: 20px;
+	border-color: blue;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 12px;
+	height: 35px;
+	width: 150px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn:hover {
+	background-color: blue;
+	color: white;
+}
+
+label {
+	margin: 10px;
+	font-size: large;
+}
+
+input {
+	margin: 10px;
+	border-radius: 10px;
+	font-size: 16px;
+	border-color: blue;
+	height: 25px;
+	text-align: right;
+}
+
+.radio:hover {
+	background-color: #ccc;
+}
+
+.radio-label {
+	transition: width 2s, height 2s;
+}
+
+.radio-label:hover {
+	width: 125%;
+	height: 125%;
+}
